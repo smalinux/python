@@ -22,4 +22,27 @@ print(type(sma_dect), sma_dect)
 print(type(2 == 2))
 print(type(2 == 4))
 
+# re-assing var
 
+x = 33
+x = "hello"
+
+
+print(x)
+
+a, b, c = 1, 2, 3
+
+print(a)
+print(b)
+print(c)
+
+# scape in python "\" not "\n"
+print("line 1 \
+line 2 \
+line 3")
+
+# line feed
+print("line\n feed")
+
+# print hex
+print("\x74")
