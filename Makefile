@@ -12,4 +12,6 @@ all:
 	#python3.9 dict.py
 	#python3.9 tmp.py
 	#python3.9 cotrol_flow.py
-	python3.9 function.py
+	#python3.9 function.py
+	#python3.9 file_handling.py
+	python3.9 modules.py
