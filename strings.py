@@ -1,3 +1,4 @@
+# strings immutable == cann't modified
 #
 # concat
 # can't concat string & number.. should convert it to string first
@@ -152,6 +153,20 @@ def string_methods():
 
     print(", ".join(myList))
 
+    #######################################################################
+    print("="* 100)
+
+    # pop string impl ))
+    s = "Sohaib"
+    while s:
+        print(s[-1])
+        s = s[:-1]
+
+    #######################################################################
+    print("="* 100)
+
+    s = "Sohaib" * 2
+    print(s)
 
 #######################################################################
 def main():

@@ -72,5 +72,41 @@ def main():
 
     #######################
     list_methods()
+    ###################################
+
+    print("=" * 50)
+
+    my_list = [3] * 50
+    print(my_list)
+
+    ls2 = [1,2,3,4,5,6,7]
+    print(ls2[1:4]) # from 1 to less than 4
+    A = ls2 * 3
+    print(A)
+    print(ls2)
+    ls2[2] = 44444
+    print(A)
+    print(ls2)
+    ###################################
+
+    ls22 = []
+    for i in range(10):
+        ls22.append(i)
+
+    print(ls22.pop(9)) # index
+    print(ls22.count(8))
+    #print(ls22.reverse(0))
+
+    print((22).__add__(44))
+
+    while ls22:
+        print(ls22.pop(), end='')
+
+    ###################################
+    print("=" * 50)
+
+    ls33 = list(range(10))
+    print(ls33)
+
 
 main()

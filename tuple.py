@@ -1,5 +1,6 @@
 #
 # tuples
+# immutable == cann't be changed like strings
 #
 
 def tuple_methods():
