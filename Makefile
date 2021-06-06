@@ -25,10 +25,11 @@ py101:
 	#python3.8 DS.py
 	#python3.8 ps1.py
 	#python3.8 dir.py
-	python3.8 time_calc.py
+	#python3.8 time_calc.py
 
 py102:
 	#python3.8 basics102.py
+	python3.8 list-big-o.py
 
 
 

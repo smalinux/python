@@ -1,0 +1,41 @@
+
+
+# lists
+###############################################################################
+
+- indexing -> O(1)
+- assigning to an index position. -> O(1)
+- append method -> O(i)
+- concatenation operator is 𝑂(𝑘) where 𝑘 is the size of the list that is
+   being concatenated
+-
+Operation      Big-O Efficiency
+indexx[]       𝑂(1)
+index assignment 𝑂(1)
+append         𝑂(1)
+pop()          𝑂(1)
+pop(i)         𝑂(𝑛)
+insert(i,item) 𝑂(𝑛)
+del operator   𝑂(𝑛)
+iteration      𝑂(𝑛)
+contains (in)  𝑂(𝑛)
+get slice [x:y] 𝑂(𝑘)
+del slice      𝑂(𝑛)
+set slice      𝑂(𝑛 + 𝑘)
+reverse        𝑂(𝑛)
+concatenate    𝑂(𝑘)
+sort           𝑂(𝑛 log 𝑛)
+multiply       𝑂(𝑛𝑘)
+
+
+
+
+# dict
+###############################################################################
+Operation      Big-O Efficiency
+copy           𝑂(𝑛)
+get item       𝑂(1)
+set item       𝑂(1)
+delete item    𝑂(1)
+contains (in)  𝑂(1)
+iteration      𝑂(𝑛)
