@@ -29,7 +29,9 @@ py101:
 
 py102:
 	#python3.8 basics102.py
-	python3.8 list-big-o.py
+	#python3.8 list-big-o.py
+	python3.8 stack.py
+
 
 
 
