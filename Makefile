@@ -1,7 +1,7 @@
 #Google:
 #  	immutable vs mutable python
 
-all: py101 py102
+all: py101 py102 py103 webscraping
 
 py101:
 	#python3.8 codeforces.py
@@ -33,7 +33,16 @@ py102:
 	#python3.8 stack.py
 	#python3.8 queue.py
 	#python3.8 deque.py
-	python3.8 linkedList.py
+	#python3.8 linkedList.py
+
+py103: # Recursion
+	#python3.8 rc_1.py
+	#python3.8 my_turtle.py
+	#python3.8 my_turtle_2.py
+
+webscraping:
+	python3.8 top_250_movie.py
+
 
 
 
