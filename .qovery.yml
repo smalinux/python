@@ -1,0 +1,11 @@
+---
+application:
+  name: "top-250"
+  project: "top-250-movies"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-top-250"
+  routes:
+  - application_name: "top-250"
+    paths:
+    - "/*"
